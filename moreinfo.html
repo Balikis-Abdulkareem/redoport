@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css files-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <!--style-switcher-->
+    <link rel="stylesheet" href="css/skins/color-1.css"
+     class="alternate-style" title="color-1" disabled>
+     <link rel="stylesheet" href="css/skins/color-2.css"
+     class="alternate-style" title="color-2" disabled>
+     <link rel="stylesheet" href="css/skins/color-3.css"
+     class="alternate-style" title="color-3" disabled>
+     <link rel="stylesheet" href="css/skins/color-4.css"
+     class="alternate-style" title="color-4" disabled>
+     <link rel="stylesheet" href="css/skins/color-5.css"
+     class="alternate-style" title="color-5" disabled>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+    body{
+        margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+        background: var(--bg-black-900);
+        text-align: center;
+    }
+    .moreinfo-container p{
+        color: var(--text-black-700);
+        text-align: left;
+        padding: 1rem;
+    }
+    @media(max-width:767px){
+    html{
+        font-size: 14px;
+    }}
+</style>
+<body class="dark">
+    <div class="moreinfo-container">
+        <h3 style="color: var(--skin-color);">DEFENSING A HEALTHCARE ORGANISATION FROM A RANSOME ATTACK!</h3>
+<img src="nerdImage.png.png" alt="" style="align-items: center;">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit ipsum at, rerum similique magni ullam odio nisi sapiente deleniti temporibus cupiditate dolorem. Consectetur suscipit repellat saepe consequuntur adipisci in minus est fugiat ipsam? Voluptas maxime fugiat illum error recusandae voluptatibus optio itaque beatae rerum porro quibusdam harum numquam neque, quos ipsam praesentium molestiae, ad iste soluta quasi sed corrupti. Suscipit excepturi consequatur assumenda ipsam ex eius quia ipsum unde eos similique temporibus corporis, consectetur, quaerat at asperiores fugiat cupiditate, tempore quos? Sunt, cumque consequatur. Voluptatibus rerum repellendus deserunt sapiente, eveniet id quam ex voluptatem quas. Quibusdam omnis consectetur commodi.</p>
+<img src="nerdImage.png.png" alt="" style="text-align: center;">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat dolorum, qui eveniet commodi sed nam provident, impedit totam necessitatibus tenetur at minima quae? Ab distinctio odio corrupti eligendi nam exercitationem vitae maxime consequuntur! Vero libero placeat eveniet veritatis ipsum adipisci possimus obcaecati culpa voluptates eligendi aut quidem explicabo quaerat in, porro ullam modi? Quibusdam in inventore dolore fuga nemo placeat qui voluptatum. Magnam voluptas atque minima dolore culpa, numquam deleniti quidem consectetur dignissimos eius asperiores minus harum autem nesciunt, similique distinctio eveniet deserunt reiciendis consequatur, a laboriosam ex! Ipsa aut cumque eligendi quidem officia veritatis doloribus quas aliquid placeat?</p>
+<a href="#" data-section-index="1" class="btn hire-me">View source</a>
+    </div>
+<!--style switcher start-->
+<div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+        <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+</div>
+<!--style switcher start-->
+<!--js files-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" referrerpolicy="no-referrer"></script>
+<script
+src="js/main.js"></script>
+<script src="js/style-switcher.js"></script>
+
+</body>
+</html>
